@@ -1,0 +1,120 @@
+.keedev-pt-pricing-table--basic-style {
+  color       : $basic-text-color;
+  font-weight : $font-weight-regular;
+
+  .keedev-pt-pricing-table-column {
+    box-shadow : none !important;
+
+    .keedev-pt-pricing-table-column__list {
+      border-radius : $basic-border-radius;
+      background    : $basic-bg-color;
+      border        : $basic-border-weight solid $basic-border-color;
+    }
+  }
+
+  .keedev-pt-pricing-table-row-title {
+    .keedev-pt-pricing-table-inside {
+      padding-bottom : 0;
+    }
+
+    .keedev-pt-pricing-table-field-title {
+      font-size   : 32px;
+      font-weight : $font-weight-light;
+      color       : $basic-title-color;
+      text-align  : center;
+      margin-top  : 20px;
+      line-height : 100%;
+    }
+  }
+
+  .keedev-pt-pricing-table-row-caption .keedev-pt-pricing-table-inside {
+    min-height : 0 !important;
+    .keedev-pt-pricing-table-field__container {
+      position   : relative;
+      display    : block;
+      width      : 100%;
+      min-height : 0 !important;
+      text-align : center;
+
+      &:before {
+        content       : " ";
+        width         : 100%;
+        border-bottom : 1px solid $basic-border-color;
+        position      : absolute;
+        left          : 0;
+        top           : 50%;
+        z-index       : 1;
+      }
+
+      .keedev-pt-pricing-table-field-caption {
+        position      : relative;
+        max-width     : 90%;
+        display       : inline-block;
+        text-align    : center;
+        border        : 1px solid $basic-border-color;
+        border-radius : 500px;
+        padding       : 0 15px;
+        z-index       : 2;
+        background    : $basic-bg-color;
+        color         : $basic-secondary-color;
+
+      }
+    }
+  }
+
+  .keedev-pt-pricing-table-field-price {
+    text-align  : center;
+    padding     : 20px 0;
+    font-size   : 18px;
+    line-height : 100%;
+
+    .keedev-pt-pricing-table-field-price--price {
+      display    : inline-block;
+      text-align : center;
+      position   : relative;
+      color      : $basic-secondary-color;
+
+      &:before {
+        content      : attr(data-currency);
+        margin-right : 4px;
+      }
+    }
+
+    .keedev-pt-pricing-table-field-price--currency {
+      display : none;
+    }
+
+    .keedev-pt-pricing-table-field-price--text {
+      display : inline-block;
+    }
+  }
+
+  .keedev-pt-pricing-table-field-icon-text {
+    .keedev-pt-pricing-table-field-icon-text--icon {
+      color : $basic-secondary-color;
+    }
+  }
+
+  .keedev-pt-pricing-table-row-button {
+    .keedev-pt-pricing-table-field__container {
+      text-align : center;
+    }
+
+    a.keedev-pt-pricing-table-field-button {
+      display       : inline-block;
+      padding       : 3px 20px;
+      font-size     : 13px;
+      border-radius : 500px;
+      margin        : 20px auto;
+      background    : $basic-secondary-color;
+      color         : $basic-button-text-color;
+      font-weight   : $font-weight-medium;
+
+      &:hover {
+        background : lighten($basic-secondary-color, 15);
+      }
+    }
+
+  }
+
+}

@@ -1,0 +1,405 @@
+/** Metaboxes */
+
+/** Settings */
+#keedev-pt-settings-metabox .keedev-pt-metabox-table {
+    width : 100%;
+}
+
+#keedev-pt-settings-metabox .keedev-pt-metabox-table tr > td:first-child {
+    width : 150px;
+}
+
+#keedev-pt-settings-metabox .keedev-pt-metabox-table td {
+    padding : 3px;
+}
+
+#keedev-pt-settings-metabox input:not([type=checkbox]),
+#keedev-pt-settings-metabox select {
+    width     : 100%;
+    max-width : 400px;
+}
+
+/*-------------------------------
+ Style Selector
+ -------------------------------*/
+
+#keedev-pt-settings-style-selector .keedev-pt-settings-style-selector__label-container {
+    border     : 1px solid #d5d5d5;
+    padding    : 3px 5px 3px 10px;
+    width      : 100%;
+    max-width  : 400px;
+    display    : inline-block;
+    box-sizing : border-box;
+}
+
+#keedev-pt-settings-style-selector .keedev-pt-settings-style-selector__label-container span.dashicons {
+    float : right;
+}
+
+#keedev-pt-settings-style-selector .keedev-pt-settings-style-selector__options {
+    display : none;
+}
+
+#keedev-pt-settings-style-selector .keedev-pt-settings-style-selector__item {
+    display       : inline-block;
+    width         : 30%;
+    margin        : 1.5%;
+    border-radius : 3px;
+    border        : 2px solid #f1f1f1;
+    box-sizing    : border-box;
+    cursor        : pointer;
+}
+
+#keedev-pt-settings-style-selector .keedev-pt-settings-style-selector__item.active {
+    border-color : #00dcaf;
+}
+
+#keedev-pt-settings-style-selector .keedev-pt-settings-style-selector__item img {
+    width : 100%;
+}
+
+#keedev-pt-settings-style-selector .keedev-pt-settings-style-selector__item span {
+    display        : block;
+    text-align     : center;
+    text-transform : uppercase;
+    background     : #f1f1f1;
+    padding        : 3px 0;
+    color          : #999;
+}
+
+#keedev-pt-settings-style-selector .keedev-pt-settings-style-selector__item.active span {
+    background : #00dcaf;
+    color      : #fff;
+}
+
+/*-------------------------------
+ Pricing Table Admin
+ -------------------------------*/
+#keedev-pt-pricing-table-admin__wrapper {
+    width      : 100%;
+    overflow-x : auto;
+}
+
+#keedev-pt-pricing-table-admin {
+    width     : auto;
+    min-width : 100%;
+}
+
+#keedev-pt-pricing-table-admin > tbody > tr.keedev-pt-pricing-table-admin-row td {
+    border-bottom : 1px solid #ddd;
+}
+
+#keedev-pt-pricing-table-admin > tbody > tr.keedev-pt-pricing-table-admin-row:last-child td {
+    border-bottom : none;
+}
+
+#keedev-pt-pricing-table-admin > tbody > tr:nth-child(even) {
+    background : #fff;
+}
+
+#keedev-pt-pricing-table-admin > tbody > tr:nth-child(odd) {
+    background : #f4f4f4;
+}
+
+#keedev-pt-pricing-table-admin th.keedev-pt-pricing-table-admin-column,
+#keedev-pt-pricing-table-admin td.keedev-pt-pricing-table-admin-column {
+    min-width : 200px;
+}
+
+#keedev-pt-pricing-table-admin th.keedev-pt-pricing-table-admin-column {
+    position       : relative;
+    padding-bottom : 30px;
+    vertical-align : top;
+}
+
+td.keedev-pt-pricing-table-admin-anchor-column,
+th.keedev-pt-pricing-table-admin-anchor-column {
+    width          : 20px;
+    vertical-align : middle;
+}
+
+th.keedev-pt-pricing-table-admin-row-settings-column,
+td.keedev-pt-pricing-table-admin-row-settings-column {
+    width : 170px;
+}
+
+.keedev-pt-pricing-table-admin-table-field-settings label {
+    display        : inline-block;
+    font-size      : 11px;
+    text-transform : uppercase;
+    font-weight    : 600;
+    position       : relative;
+    line-height    : 11px;
+    margin         : 3px 0 3px 0;
+    color          : #5d687d;
+}
+
+.keedev-pt-pricing-table-admin-table-field-settings input:not(.wp-color-picker):not(.wp-picker-clear):not(.wp-picker-default),
+.keedev-pt-pricing-table-admin-table-field-settings select {
+    width      : 100%;
+    margin     : 0 0 7px 0 !important;
+    padding    : 5px !important;
+    box-shadow : none;
+    height     : auto;
+}
+
+.keedev-pt-pricing-table-admin-highlight {
+    background : #e4efff !important;
+}
+
+#keedev-pt-pricing-table-admin-show-settings {
+    cursor : pointer;
+}
+
+#keedev-pt-pricing-table-admin-show-settings:hover {
+    color : #2470ff;
+}
+
+.keedev-pt-pricing-table-admin-row-settings-column,
+.keedev-pt-pricing-table-admin-column-settings {
+    display : none;
+}
+
+.keedev-pt-pricing-table-admin-column-settings {
+    padding-bottom : 15px;
+}
+
+td.keedev-pt-pricing-table-admin-row-action-column,
+th.keedev-pt-pricing-table-admin-row-action-column {
+    width          : 25px;
+    vertical-align : middle;
+}
+
+.keedev-pt-pricing-table-admin-column-actions {
+    display    : block;
+    width      : 100%;
+    text-align : center;
+    position   : absolute;
+    bottom     : 5px;
+    left       : 0;
+}
+
+.keedev-pt-pricing-table-admin-row-action-column span,
+.keedev-pt-pricing-table-admin-column-actions span {
+    width     : 25px;
+    height    : 25px;
+    font-size : 25px;
+    cursor    : pointer;
+}
+
+.keedev-pt-pricing-table-admin-row-action-add,
+.keedev-pt-pricing-table-admin-column-action-add {
+    color : #0081e2;
+}
+
+.keedev-pt-pricing-table-admin-row-action-delete,
+.keedev-pt-pricing-table-admin-column-action-delete {
+    color : #c70032;
+}
+
+/* Fields visibility by type */
+.keedev-pt-pricing-table-admin-field-price__container,
+.keedev-pt-pricing-table-admin-field-currency__container,
+.keedev-pt-pricing-table-admin-field-html__container,
+.keedev-pt-pricing-table-admin-field-icon__container,
+.keedev-pt-pricing-table-admin-field-size__container,
+.keedev-pt-pricing-table-admin-field-color__container,
+.keedev-pt-pricing-table-admin-field-url__container {
+    display : none;
+}
+
+.keedev-pt-pricing-table-admin-type-price .keedev-pt-pricing-table-admin-field-price__container,
+.keedev-pt-pricing-table-admin-type-price .keedev-pt-pricing-table-admin-field-currency__container {
+    display : block;
+}
+
+.keedev-pt-pricing-table-admin-type-icon .keedev-pt-pricing-table-admin-field-icon__container,
+.keedev-pt-pricing-table-admin-type-icon .keedev-pt-pricing-table-admin-field-size__container,
+.keedev-pt-pricing-table-admin-type-icon .keedev-pt-pricing-table-admin-field-color__container {
+    display : block;
+}
+
+.keedev-pt-pricing-table-admin-type-icon .keedev-pt-pricing-table-admin-field-text__container {
+    display : none;
+}
+
+.keedev-pt-pricing-table-admin-type-icon-text .keedev-pt-pricing-table-admin-field-icon__container {
+    display : block;
+}
+
+.keedev-pt-pricing-table-admin-type-button .keedev-pt-pricing-table-admin-field-url__container {
+    display : block;
+}
+
+.keedev-pt-pricing-table-admin-type-html .keedev-pt-pricing-table-admin-field-text__container {
+    display : none;
+}
+
+.keedev-pt-pricing-table-admin-type-html .keedev-pt-pricing-table-admin-field-html__container {
+    display : block;
+}
+
+/* Color Picker Fix Style */
+#keedev-pt-pricing-table-admin .wp-picker-container {
+    display : block;
+}
+
+#keedev-pt-pricing-table-admin .wp-picker-holder {
+    position : absolute;
+    z-index  : 20;
+}
+
+/**-----------------------------------
+    Distraction Free
+ ------------------------------------- */
+.keedev-pt-distraction-free-on .wrap > h1,
+.keedev-pt-distraction-free-on .page-title-action,
+.keedev-pt-distraction-free-on #wpfooter,
+.keedev-pt-distraction-free-on .postbox-container > * > *,
+.keedev-pt-distraction-free-on div.updated,
+.keedev-pt-distraction-free-on div.error,
+.keedev-pt-distraction-free-on div.notice,
+.keedev-pt-distraction-free-on .update-nag,
+.keedev-pt-distraction-free-on #wp-toolbar,
+.keedev-pt-distraction-free-on #screen-meta-links,
+.keedev-pt-distraction-free-on #screen-meta {
+    opacity                            : 0;
+    -webkit-transition-duration        : 0.6s;
+    transition-duration                : 0.6s;
+    -webkit-transition-property        : opacity;
+    transition-property                : opacity;
+    -webkit-transition-timing-function : ease-in-out;
+    transition-timing-function         : ease-in-out;
+}
+
+.keedev-pt-distraction-free-on #wpcontent {
+    margin-left                        : 0;
+    -webkit-transition-duration        : 0.4s;
+    transition-duration                : 0.4s;
+    -webkit-transition-property        : margin-left;
+    transition-property                : margin-left;
+    -webkit-transition-timing-function : ease-in-out;
+    transition-timing-function         : ease-in-out;
+    -webkit-transition-delay           : 0.6s;
+    transition-delay                   : 0.6s;
+}
+
+.keedev-pt-distraction-free-on #poststuff #post-body.columns-2 {
+    margin-right                       : 0;
+    -webkit-transition-duration        : 0.4s;
+    transition-duration                : 0.4s;
+    -webkit-transition-property        : margin-right;
+    transition-property                : margin-right;
+    -webkit-transition-timing-function : ease-in-out;
+    transition-timing-function         : ease-in-out;
+    -webkit-transition-delay           : 0.6s;
+    transition-delay                   : 0.6s;
+}
+
+.keedev-pt-distraction-free-on #keedev-pt-settings-metabox,
+.keedev-pt-distraction-free-on #keedev-pt-table-metabox {
+    opacity : 1;
+}
+
+.keedev-pt-distraction-free-on #wp-toolbar {
+    opacity : 0.3;
+}
+
+.keedev-pt-distraction-free-on #adminmenuback,
+.keedev-pt-distraction-free-on #adminmenuwrap {
+    -webkit-transition-duration        : 0.6s;
+    transition-duration                : 0.6s;
+    -webkit-transition-property        : -webkit-transform;
+    transition-property                : -webkit-transform;
+    transition-property                : transform;
+    transition-property                : transform, -webkit-transform;
+    -webkit-transition-timing-function : ease-in-out;
+    transition-timing-function         : ease-in-out;
+}
+
+.keedev-pt-distraction-free-on #adminmenuback,
+.keedev-pt-distraction-free-on #adminmenuwrap {
+    -webkit-transform : translateX(-100%);
+    -ms-transform     : translateX(-100%);
+    transform         : translateX(-100%);
+}
+
+/*-------------------------------
+    Pricing Table Wizard
+ -------------------------------*/
+#keedev-pt-wizard {
+    display    : none;
+    padding    : 15px;
+    background : #fff;
+    border     : 1px solid #e5e5e5;
+    box-shadow : 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+#keedev-pt-wizard .keedev-pt-wizard__separator {
+    display : block;
+    clear   : both;
+}
+
+#keedev-pt-wizard .keedev-pt-wizard__item {
+    display       : block;
+    float         : left;
+    width         : calc(25% - 10px);
+    max-width     : 250px;
+    margin        : 5px;
+    border-radius : 3px;
+    border        : 2px solid #f1f1f1;
+    box-sizing    : border-box;
+    color         : #333;
+    text-align    : center;
+}
+
+#keedev-pt-wizard .keedev-pt-wizard__item:hover {
+    border-color : #00dcaf;
+    color        : #fff;
+}
+
+#keedev-pt-wizard .keedev-pt-wizard__item__title {
+    display        : block;
+    text-align     : center;
+    text-transform : uppercase;
+    background     : #f1f1f1;
+    padding        : 3px 0;
+    color          : #999;
+}
+
+#keedev-pt-wizard .keedev-pt-wizard__item:hover .keedev-pt-wizard__item__title {
+    background : #00dcaf;
+    color      : #fff;
+}
+
+#keedev-pt-wizard .keedev-pt-wizard__item__content {
+    height  : 100px;
+    width   : 100%;
+    display : table;
+}
+
+#keedev-pt-wizard .keedev-pt-wizard__item__content-wrapper {
+    display        : table-cell;
+    vertical-align : middle;
+}
+
+.keedev-pt-wizard-preset-column {
+    display       : inline-block;
+    background    : #eee;
+    border-radius : 2px;
+    width         : calc(20% - 10px);
+    margin        : 5px;
+    height        : 50%;
+}
+
+.keedev-pt-wizard-preset-column.keedev-pt-wizard-preset-column--mini {
+    height : 35%;
+}
+
+.keedev-pt-wizard-preset-column.keedev-pt-wizard-preset-column--full {
+    height : 70%;
+}
+
+#keedev-pt-wizard .keedev-pt-wizard__item:hover .keedev-pt-wizard-preset-column {
+    background : #00dcaf;
+}

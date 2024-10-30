@@ -1,0 +1,111 @@
+$responsive-breakpoint-1 : 768px;
+
+$darker-color-percentage : 20%;
+
+$basic-bg-color : #fff;
+$basic-text-color : #9f9f9f;
+$basic-secondary-color : #33c4b6;
+$basic-title-color : #565656;
+$basic-border-color : #e8e8e8;
+$basic-border-radius : 7px;
+$basic-border-weight : 4px;
+$basic-button-text-color : #fff;
+
+$classic-color-1 : #48aee2;
+$classic-color-2 : #09cca6;
+$classic-color-3 : #9e98e2;
+$classic-color-4 : #e24e9b;
+$classic-title-text-color : #fff;
+$classic-button-text-color : #fff;
+$classic-text-color : #999;
+$classic-row-bg-color : #fff;
+$classic-primary-bg-color : #222227;
+
+$clear-color-1 : #3b84c0;
+$clear-color-2 : #2b8f8c;
+$clear-color-3 : #894866;
+$clear-color-4 : #f0a440;
+$clear-text-color : #333;
+$clear-bg-color : #fff;
+$clear-list-border-color : #e5e5e7;
+$clear-secondary-text-color : #fff;
+$clear-title-bg-color : #192532;
+$clear-price-border-color : #fff;
+$clear-price-border-width : 4px;
+$clear-price-text-color : #fff;
+
+$flat-color-1 : #48aee2;
+$flat-color-2 : #09cca6;
+$flat-color-3 : #9e98e2;
+$flat-color-4 : #e24e9b;
+$flat-text-color : #333;
+$flat-bg-color : #fff;
+$flat-bg-even-color : #f1f1f1;
+$flat-secondary-text-color : #fff;
+$flat-price-bg-color : #fff;
+$flat-price-text-color : #333;
+
+$gradient-color-1-top : #81ea63;
+$gradient-color-1-bottom : #379dfc;
+$gradient-color-2-top : #62eacf;
+$gradient-color-2-bottom : #8537fc;
+$gradient-color-3-top : #ea8b5c;
+$gradient-color-3-bottom : #e24e9b;
+$gradient-color-4-top : #94da0a;
+$gradient-color-4-bottom : #21a556;
+$gradient-text-color : #fff;
+$gradient-opaque-color : rgba(255, 255, 255, 0.3);
+
+$candy-color-1-top : #81d0fc;
+$candy-color-1-bottom : #427ae6;
+$candy-color-2-top : #a288fc;
+$candy-color-2-bottom : #7935ea;
+$candy-color-3-top : #f096cc;
+$candy-color-3-bottom : #d14b8d;
+$candy-color-4-top : #62e28f;
+$candy-color-4-bottom : #209f51;
+$candy-text-color : #fff;
+$candy-border-radius : 15px;
+$candy-button-border-color : #fff;
+
+$opaque-bg-color-top : rgba(70, 78, 82, 0.9);
+$opaque-bg-color-bottom : rgba(18, 22, 25, 0.9);
+$opaque-title-color : #c8b0e4;
+$opaque-text-color : #c6c5cc;
+$opaque-price-text-color : #fff;
+$opaque-button-bg-color : rgba(33, 39, 43, 0.5);
+$opaque-button-text-color : #baa0e4;
+$opaque-button-hover-text-color : #c492fc;
+$opaque-light-over-effect-bg : rgba(229, 163, 255, 0.15) !important;
+
+$simple-color-1 : #53dbac;
+$simple-color-2 : #6ec7e2;
+$simple-color-3 : #e26a85;
+$simple-color-4 : #e2a65c;
+$simple-darker-percentage : 8%;
+$simple-secondary-text-color : #fff;
+$simple-text-color : #676767;
+$simple-bg-color : #fff;
+
+$business-color-1-top : #410069;
+$business-color-1-bottom : #880089;
+$business-color-2-top : #410069;
+$business-color-2-bottom : #880089;
+$business-color-3-top : #410069;
+$business-color-3-bottom : #880089;
+$business-color-4-top : #410069;
+$business-color-4-bottom : #880089;
+$business-text-color : #fff;
+$business-border-radius : 0;
+$business-button-border-color : #fff;
+
+$font-weight-thin : 100;
+$font-weight-extra-light : $font-weight-thin + 100;
+$font-weight-light : $font-weight-extra-light + 100;
+$font-weight-regular : $font-weight-light + 100;
+$font-weight-medium : $font-weight-regular + 100;
+$font-weight-semi-bold : $font-weight-medium + 100;
+$font-weight-bold : $font-weight-semi-bold + 100;
+$font-weight-extra-bold : $font-weight-bold + 100;
+$font-weight-black : $font-weight-extra-bold + 100;
+$font-weight-extra-black : $font-weight-black + 100;

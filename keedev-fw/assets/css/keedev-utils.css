@@ -1,0 +1,65 @@
+/* -------------------------
+        KeeDev Utils
+   ------------------------- */
+
+/**
+ *  Copy to clipboard
+ */
+.keedev-copy-to-clipboard {
+    display                 : inline-block;
+    width                   : 20px;
+    height                  : 20px;
+    font-size               : 20px;
+    line-height             : 1;
+    font-family             : dashicons;
+    text-decoration         : inherit;
+    font-weight             : 400;
+    font-style              : normal;
+    vertical-align          : top;
+    text-align              : center;
+    -webkit-transition      : color .1s ease-in 0;
+    transition              : color .1s ease-in 0;
+    -webkit-font-smoothing  : antialiased;
+    -moz-osx-font-smoothing : grayscale;
+    cursor                  : pointer;
+    position                : relative;
+}
+
+.keedev-copy-to-clipboard:after {
+    content  : "\f105";
+    z-index  : 10;
+    position : absolute;
+    top      : 0;
+    left     : 0;
+}
+
+.keedev-copy-to-clipboard:hover {
+    color : #2470ff;
+}
+
+.keedev-copy-to-clipboard:active {
+    color : #83c1ff;
+}
+
+.keedev-copy-to-clipboard:before {
+    content            : "";
+    background         : #64d1ff;
+    display            : block;
+    position           : absolute;
+    padding            : 10px;
+    opacity            : 0;
+    transition         : all 0.8s;
+    -webkit-transition : all 0.8s;
+    top                : 0;
+    left               : 0;
+    border-radius      : 50%;
+    transform          : scale(2);
+    z-index            : 9;
+}
+
+.keedev-copy-to-clipboard:active:before {
+    transform          : scale(0);
+    opacity            : 1;
+    transition         : 0s;
+    -webkit-transition : 0s;
+}

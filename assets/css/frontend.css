@@ -1,0 +1,274 @@
+/*------------------------
+Reset style
+------------------------*/
+.keedev-pt-pricing-table ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .keedev-pt-pricing-table ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+.keedev-pt-pricing-table a {
+  text-transform: none;
+  text-decoration: none;
+  border: 0;
+  box-shadow: none;
+  color: inherit; }
+
+/*------------------------
+Clearfix
+------------------------*/
+.keedev-pt-clearfix {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */ }
+  .keedev-pt-clearfix:before, .keedev-pt-clearfix:after {
+    content: "";
+    display: table; }
+  .keedev-pt-clearfix:after {
+    clear: both; }
+
+/*------------------------
+Table
+------------------------*/
+.keedev-pt-pricing-table {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  font-family: "Montserrat", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  color: #333;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  .keedev-pt-pricing-table * {
+    font-family: "Montserrat", "Helvetica Neue", sans-serif;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  .keedev-pt-pricing-table .keedev-pt-pricing-table-column {
+    float: left;
+    position: relative;
+    cursor: default; }
+  .keedev-pt-pricing-table small {
+    font-size: 80%;
+    line-height: 1; }
+  .keedev-pt-pricing-table ul li {
+    padding: 0; }
+    .keedev-pt-pricing-table ul li:not(.keedev-pt-pricing-table-row-html):not(.keedev-pt-pricing-table-row-button) .keedev-pt-pricing-table-inside {
+      padding: 7px 15px; }
+    .keedev-pt-pricing-table ul li.keedev-pt-pricing-table-row-caption .keedev-pt-pricing-table-inside {
+      min-height: 100px; }
+      .keedev-pt-pricing-table ul li.keedev-pt-pricing-table-row-caption .keedev-pt-pricing-table-inside .keedev-pt-pricing-table-field__container {
+        display: table;
+        width: 100%;
+        min-height: 100px; }
+      .keedev-pt-pricing-table ul li.keedev-pt-pricing-table-row-caption .keedev-pt-pricing-table-inside .keedev-pt-pricing-table-field-caption {
+        display: table-cell;
+        vertical-align: middle; }
+
+@media (max-width: 768px) {
+  .keedev-pt-pricing-table .keedev-pt-pricing-table-column {
+    float: none;
+    width: 100% !important;
+    margin: 20px 0 !important; } }
+/**
+ * Icon type
+ */
+.keedev-pt-pricing-table-field-icon {
+  text-align: center; }
+
+.keedev-pt-pricing-table-field-icon--icon.size-medium {
+  font-size: 24px; }
+
+.keedev-pt-pricing-table-field-icon--icon.size-large {
+  font-size: 36px; }
+
+.keedev-pt-pricing-table-field-icon--icon.size-extra-large {
+  font-size: 58px; }
+
+/**
+ * Icon Text type
+ */
+.keedev-pt-pricing-table-field-icon-text--icon {
+  margin-right: 5px; }
+
+/**
+ * Alignment
+ */
+.keedev-pt-pricing-table-column--center-alignment .keedev-pt-pricing-table-field-icon-text,
+.keedev-pt-pricing-table-column--center-alignment .keedev-pt-pricing-table-field-text {
+  text-align: center; }
+
+.keedev-pt-pricing-table-column--right-alignment .keedev-pt-pricing-table-field-icon-text,
+.keedev-pt-pricing-table-column--right-alignment .keedev-pt-pricing-table-field-text {
+  text-align: right; }
+
+.keedev-pt-pricing-table--basic-style {
+  color: #9f9f9f;
+  font-weight: 400; }
+  .keedev-pt-pricing-table--basic-style .keedev-pt-pricing-table-column {
+    box-shadow: none !important; }
+    .keedev-pt-pricing-table--basic-style .keedev-pt-pricing-table-column .keedev-pt-pricing-table-column__list {
+      border-radius: 7px;
+      background: #fff;
+      border: 4px solid #e8e8e8; }
+  .keedev-pt-pricing-table--basic-style .keedev-pt-pricing-table-row-title .keedev-pt-pricing-table-inside {
+    padding-bottom: 0; }
+  .keedev-pt-pricing-table--basic-style .keedev-pt-pricing-table-row-title .keedev-pt-pricing-table-field-title {
+    font-size: 32px;
+    font-weight: 300;
+    color: #565656;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 100%; }
+  .keedev-pt-pricing-table--basic-style .keedev-pt-pricing-table-row-caption .keedev-pt-pricing-table-inside {
+    min-height: 0 !important; }
+    .keedev-pt-pricing-table--basic-style .keedev-pt-pricing-table-row-caption .keedev-pt-pricing-table-inside .keedev-pt-pricing-table-field__container {
+      position: relative;
+      display: block;
+      width: 100%;
+      min-height: 0 !important;
+      text-align: center; }
+      .keedev-pt-pricing-table--basic-style .keedev-pt-pricing-table-row-caption .keedev-pt-pricing-table-inside .keedev-pt-pricing-table-field__container:before {
+        content: " ";
+        width: 100%;
+        border-bottom: 1px solid #e8e8e8;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        z-index: 1; }
+      .keedev-pt-pricing-table--basic-style .keedev-pt-pricing-table-row-caption .keedev-pt-pricing-table-inside .keedev-pt-pricing-table-field__container .keedev-pt-pricing-table-field-caption {
+        position: relative;
+        max-width: 90%;
+        display: inline-block;
+        text-align: center;
+        border: 1px solid #e8e8e8;
+        border-radius: 500px;
+        padding: 0 15px;
+        z-index: 2;
+        background: #fff;
+        color: #33c4b6; }
+  .keedev-pt-pricing-table--basic-style .keedev-pt-pricing-table-field-price {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 18px;
+    line-height: 100%; }
+    .keedev-pt-pricing-table--basic-style .keedev-pt-pricing-table-field-price .keedev-pt-pricing-table-field-price--price {
+      display: inline-block;
+      text-align: center;
+      position: relative;
+      color: #33c4b6; }
+      .keedev-pt-pricing-table--basic-style .keedev-pt-pricing-table-field-price .keedev-pt-pricing-table-field-price--price:before {
+        content: attr(data-currency);
+        margin-right: 4px; }
+    .keedev-pt-pricing-table--basic-style .keedev-pt-pricing-table-field-price .keedev-pt-pricing-table-field-price--currency {
+      display: none; }
+    .keedev-pt-pricing-table--basic-style .keedev-pt-pricing-table-field-price .keedev-pt-pricing-table-field-price--text {
+      display: inline-block; }
+  .keedev-pt-pricing-table--basic-style .keedev-pt-pricing-table-field-icon-text .keedev-pt-pricing-table-field-icon-text--icon {
+    color: #33c4b6; }
+  .keedev-pt-pricing-table--basic-style .keedev-pt-pricing-table-row-button .keedev-pt-pricing-table-field__container {
+    text-align: center; }
+  .keedev-pt-pricing-table--basic-style .keedev-pt-pricing-table-row-button a.keedev-pt-pricing-table-field-button {
+    display: inline-block;
+    padding: 3px 20px;
+    font-size: 13px;
+    border-radius: 500px;
+    margin: 20px auto;
+    background: #33c4b6;
+    color: #fff;
+    font-weight: 500; }
+    .keedev-pt-pricing-table--basic-style .keedev-pt-pricing-table-row-button a.keedev-pt-pricing-table-field-button:hover {
+      background: #6bd8ce; }
+
+.keedev-pt-pricing-table--opaque-style {
+  color: #c6c5cc;
+  font-weight: 400; }
+  .keedev-pt-pricing-table--opaque-style .keedev-pt-pricing-table-column {
+    background-image: -webkit-linear-gradient(top, rgba(70, 78, 82, 0.9) 0%, rgba(18, 22, 25, 0.9) 90%);
+    background-image: -o-linear-gradient(top, rgba(70, 78, 82, 0.9) 0%, rgba(18, 22, 25, 0.9) 90%);
+    background-image: linear-gradient(to bottom, rgba(70, 78, 82, 0.9) 0%, rgba(18, 22, 25, 0.9) 90%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E6464E52', endColorstr='#E6121619', GradientType=0); }
+  .keedev-pt-pricing-table--opaque-style .keedev-pt-pricing-table-theme-text-color {
+    color: #c8b0e4; }
+  .keedev-pt-pricing-table--opaque-style .keedev-pt-pricing-table-row-title .keedev-pt-pricing-table-inside {
+    padding-bottom: 0; }
+  .keedev-pt-pricing-table--opaque-style .keedev-pt-pricing-table-row-title .keedev-pt-pricing-table-field-title {
+    color: #c8b0e4;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 35px;
+    line-height: 100%;
+    text-transform: uppercase; }
+  .keedev-pt-pricing-table--opaque-style .keedev-pt-pricing-table-row-caption .keedev-pt-pricing-table-inside .keedev-pt-pricing-table-field__container {
+    display: table;
+    width: 100%;
+    padding: 15px 0; }
+    .keedev-pt-pricing-table--opaque-style .keedev-pt-pricing-table-row-caption .keedev-pt-pricing-table-inside .keedev-pt-pricing-table-field__container .keedev-pt-pricing-table-field-caption {
+      font-size: 18px;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center; }
+  .keedev-pt-pricing-table--opaque-style .keedev-pt-pricing-table-field-price {
+    text-align: center; }
+    .keedev-pt-pricing-table--opaque-style .keedev-pt-pricing-table-field-price .keedev-pt-pricing-table-field-price--price {
+      display: inline-block;
+      font-size: 45px;
+      line-height: 100%;
+      text-align: center;
+      position: relative;
+      font-weight: 500;
+      color: #fff; }
+      .keedev-pt-pricing-table--opaque-style .keedev-pt-pricing-table-field-price .keedev-pt-pricing-table-field-price--price:before {
+        content: attr(data-currency);
+        font-size: 15px;
+        line-height: 100%;
+        position: absolute;
+        top: 3px;
+        left: -14px;
+        font-weight: 400; }
+    .keedev-pt-pricing-table--opaque-style .keedev-pt-pricing-table-field-price .keedev-pt-pricing-table-field-price--currency {
+      display: none; }
+    .keedev-pt-pricing-table--opaque-style .keedev-pt-pricing-table-field-price .keedev-pt-pricing-table-field-price--text {
+      text-align: center;
+      font-size: 12px;
+      font-style: italic;
+      min-height: 19px; }
+  .keedev-pt-pricing-table--opaque-style .keedev-pt-pricing-table-row-button a.keedev-pt-pricing-table-field-button {
+    display: block;
+    padding: 20px 90px 20px 30px;
+    position: relative;
+    text-align: left;
+    font-size: 16px;
+    background: rgba(33, 39, 43, 0.5);
+    color: #baa0e4; }
+    .keedev-pt-pricing-table--opaque-style .keedev-pt-pricing-table-row-button a.keedev-pt-pricing-table-field-button:after {
+      content: '>';
+      font-size: 28px;
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 70px;
+      text-align: center;
+      border-left: 1px solid #444;
+      line-height: 68px; }
+    .keedev-pt-pricing-table--opaque-style .keedev-pt-pricing-table-row-button a.keedev-pt-pricing-table-field-button:hover {
+      color: #c492fc;
+      font-weight: 400; }
+  .keedev-pt-pricing-table--opaque-style.keedev-pt-pricing-table.keedev-pt-pricing-table--light-hover-effect .keedev-pt-pricing-table-column:hover .keedev-pt-pricing-table-inside {
+    background: rgba(229, 163, 255, 0.15) !important; }
+
+/*# sourceMappingURL=frontend.css.map */

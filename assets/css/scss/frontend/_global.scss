@@ -1,0 +1,158 @@
+/*------------------------
+Reset style
+------------------------*/
+.keedev-pt-pricing-table {
+  ul {
+    list-style : none;
+    padding    : 0;
+    margin     : 0;
+    li {
+      list-style : none;
+      padding    : 0;
+      margin     : 0;
+    }
+  }
+  a {
+    text-transform  : none;
+    text-decoration : none;
+    border          : 0;
+    box-shadow      : none;
+    color           : inherit;
+  }
+}
+
+/*------------------------
+Clearfix
+------------------------*/
+.keedev-pt-clearfix {
+  zoom : 1; /* For IE 6/7 (trigger hasLayout) */
+
+  &:before,
+  &:after {
+    content : "";
+    display : table;
+  }
+
+  &:after {
+    clear : both;
+  }
+}
+
+/*------------------------
+Table
+------------------------*/
+.keedev-pt-pricing-table {
+  width                   : 100%;
+  padding                 : 15px;
+  margin                  : 10px 0;
+  font-family             : "Montserrat", "Helvetica Neue", sans-serif;
+  font-size               : 14px;
+  color                   : #333;
+  -webkit-user-select     : none;
+  -moz-user-select        : none;
+  -ms-user-select         : none;
+  user-select             : none;
+  text-rendering          : optimizeLegibility;
+  -webkit-font-smoothing  : antialiased;
+  -moz-osx-font-smoothing : grayscale;
+
+  * {
+    font-family             : "Montserrat", "Helvetica Neue", sans-serif;
+    -webkit-user-select     : none;
+    -moz-user-select        : none;
+    -ms-user-select         : none;
+    user-select             : none;
+    text-rendering          : optimizeLegibility;
+    -webkit-font-smoothing  : antialiased;
+    -moz-osx-font-smoothing : grayscale;
+  }
+
+  .keedev-pt-pricing-table-column {
+    float    : left;
+    position : relative;
+    cursor   : default;
+  }
+
+  small {
+    font-size   : 80%;
+    line-height : 1;
+  }
+
+  ul li {
+    padding : 0;
+
+    &:not(.keedev-pt-pricing-table-row-html):not(.keedev-pt-pricing-table-row-button) .keedev-pt-pricing-table-inside {
+      padding : 7px 15px;
+    }
+
+    &.keedev-pt-pricing-table-row-caption {
+      .keedev-pt-pricing-table-inside {
+        min-height : 100px;
+
+        .keedev-pt-pricing-table-field__container {
+          display    : table;
+          width      : 100%;
+          min-height : 100px;
+        }
+
+        .keedev-pt-pricing-table-field-caption {
+          display        : table-cell;
+          vertical-align : middle;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width : $responsive-breakpoint-1) {
+  .keedev-pt-pricing-table {
+    .keedev-pt-pricing-table-column {
+      float  : none;
+      width  : 100% !important;
+      margin : 20px 0 !important;
+    }
+  }
+}
+
+/**
+ * Icon type
+ */
+.keedev-pt-pricing-table-field-icon {
+  text-align : center;
+}
+
+.keedev-pt-pricing-table-field-icon--icon.size-medium {
+  font-size : 24px;
+}
+
+.keedev-pt-pricing-table-field-icon--icon.size-large {
+  font-size : 36px;
+}
+
+.keedev-pt-pricing-table-field-icon--icon.size-extra-large {
+  font-size : 58px;
+}
+
+/**
+ * Icon Text type
+ */
+.keedev-pt-pricing-table-field-icon-text--icon {
+  margin-right : 5px;
+}
+
+/**
+ * Alignment
+ */
+.keedev-pt-pricing-table-column--center-alignment {
+  .keedev-pt-pricing-table-field-icon-text,
+  .keedev-pt-pricing-table-field-text {
+    text-align : center;
+  }
+}
+
+.keedev-pt-pricing-table-column--right-alignment {
+  .keedev-pt-pricing-table-field-icon-text,
+  .keedev-pt-pricing-table-field-text {
+    text-align : right;
+  }
+}

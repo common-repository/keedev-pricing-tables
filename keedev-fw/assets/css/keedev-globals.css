@@ -1,0 +1,20 @@
+/* -------------------------
+        KeeDev Globals
+   ------------------------- */
+
+/**
+ *  Clearfix
+ */
+.keedev-clearfix:before,
+.keedev-clearfix:after {
+    content : "";
+    display : table;
+}
+
+.keedev-clearfix:after {
+    clear : both;
+}
+
+.keedev-clearfix {
+    zoom : 1; /* For IE 6/7 (trigger hasLayout) */
+}

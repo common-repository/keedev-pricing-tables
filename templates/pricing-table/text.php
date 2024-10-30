@@ -1,0 +1,1 @@
+<div class="keedev-pt-pricing-table-field keedev-pt-pricing-table-field-text"><?php echo $text ?></div>

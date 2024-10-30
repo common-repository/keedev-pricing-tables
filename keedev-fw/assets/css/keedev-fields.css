@@ -1,0 +1,175 @@
+/* -------------------------
+        KeeDev Fields
+   ------------------------- */
+
+/**
+ * WP Color Picker
+ */
+.wp-color-result {
+    border-radius : 0;
+    box-shadow    : none;
+}
+
+.wp-color-result:after {
+    background    : #fff;
+    border-radius : 0;
+}
+
+.wp-color-result:focus, .wp-color-result:hover {
+    background   : #fff;
+    border-color : #ddd;
+    color        : #555;
+    box-shadow   : 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+/**
+ *  Icons
+ */
+.keedev-icons-data__container {
+    border              : 1px solid #ddd;
+    display             : inline-block;
+    font-size           : 12px;
+    color               : #555;
+    cursor              : pointer;
+    -webkit-user-select : none;
+    -moz-user-select    : none;
+    -ms-user-select     : none;
+    user-select         : none;
+}
+
+.keedev-icons-data__container:hover {
+    box-shadow : 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.keedev-icons-data-preview__container {
+    float        : left;
+    width        : 20px;
+    height       : 20px;
+    padding      : 2px 5px;
+    border-right : 1px solid #d9d9d9;
+    text-align   : center;
+}
+
+.keedev-icons-data-label {
+    float       : left;
+    height      : 20px;
+    line-height : 20px;
+    padding     : 2px 8px;
+}
+
+.keedev-icons-selector {
+    display       : none;
+    width         : 410px;
+    position      : absolute;
+    z-index       : 99;
+    margin-bottom : 20px;
+    padding       : 8px;
+    background    : #fff;
+    border        : 1px solid #ddd;
+    margin-top    : 5px;
+}
+
+.keedev-icons-selector:before {
+    content     : ' ';
+    position    : absolute;
+    width       : 10px;
+    height      : 10px;
+    border-top  : 1px solid #ddd;
+    background  : #fff;
+    z-index     : 99;
+    top         : -6px;
+    left        : 10px;
+    border-left : 1px solid #ddd;
+    transform   : rotate(45deg);
+}
+
+ul.keedev-icons-list {
+    height     : 300px;
+    overflow-y : scroll;
+    background : #fff;
+    border     : 1px solid #ddd;
+    margin     : 0;
+}
+
+ul.keedev-icons-list li {
+    cursor     : pointer;
+    float      : left;
+    width      : 20px;
+    height     : 20px;
+    padding    : 5px;
+    font-size  : 15px;
+    text-align : center;
+    margin     : 0;
+}
+
+ul.keedev-icons-list li.active {
+    background : #00dcaf;
+}
+
+ul.keedev-icons-list li:hover {
+    background : #a5ffe3;
+    color      : #003e31;
+    font-size  : 18px;
+}
+
+ul.keedev-icons-list li.active {
+    color : #fff;
+}
+
+.keedev-icons-action {
+    display    : inline-block;
+    padding    : 5px 10px;
+    border     : 1px solid #ddd;
+    border-top : 0;
+    color      : #555;
+    cursor     : pointer;
+    background : #fff;
+    position   : relative;
+    top        : -1px;
+}
+
+.keedev-icons-action:hover {
+    color : #5b9dd9;
+}
+
+.keedev-icons-action i {
+    margin-left : 5px;
+}
+
+/*
+    Onoff
+ */
+.keedev-onoff {
+    height             : 20px;
+    width              : 36px;
+    background-color   : #23afbd;
+    display            : inline-block;
+    border-radius      : 22px;
+    position           : relative;
+    cursor             : pointer;
+    -webkit-transition : all 0.4s cubic-bezier(0.65, 0.05, 0.36, 1);
+    transition         : all 0.4s cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+
+.keedev-onoff:before {
+    content            : "";
+    display            : block;
+    width              : 16px;
+    height             : 16px;
+    background         : #fff;
+    position           : absolute;
+    top                : 2px;
+    left               : 18px;
+    border-radius      : 100%;
+    -webkit-transition : all 0.4s cubic-bezier(0.65, 0.05, 0.36, 1);
+    transition         : all 0.4s cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+
+.keedev-onoff.disabled {
+    border-color     : #999;
+    background-color : #999;
+}
+
+.keedev-onoff.disabled:before {
+    left : 2px;
+}
